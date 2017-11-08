@@ -11,8 +11,4 @@
       <Representation id="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="44100" startWithSAP="1" bandwidth="126000" />
     </AdaptationSet>
   </Period>
-</MPD>    </SegmentTemplate>
-      <Representation id="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="44100" startWithSAP="1" bandwidth="126000" />
-    </AdaptationSet>
-  </Period>
 </MPD>
