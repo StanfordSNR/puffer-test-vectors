@@ -11,7 +11,7 @@
       <Representation id="video" mimeType="video/mp4" codecs="avc1.64E028" width="1920" height="1080" frameRate="30000/1001" startWithSAP="1" bandwidth="3380000" />
     </AdaptationSet>
     <AdaptationSet segmentAlignment="true">
-      <SegmentTemplate media="$RepresentationID$/$Number$.m4s" timescale="44100" startNumber="1" initialization="$RepresentationID$/init.mp4" presentationTimeOffset="88288">
+      <SegmentTemplate media="$RepresentationID$/$Number$.m4s" timescale="44100" startNumber="0" initialization="$RepresentationID$/init.mp4" presentationTimeOffset="88288">
         <SegmentTimeline>
           <S d="234496" r="4294967295" />
         </SegmentTimeline>
