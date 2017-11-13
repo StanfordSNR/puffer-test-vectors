@@ -7,8 +7,8 @@
       <Representation id="video" mimeType="video/mp4" codecs="avc1.64E028" width="1920" height="1080" frameRate="30000/1001" startWithSAP="1" bandwidth="3380000" />
     </AdaptationSet>
     <AdaptationSet segmentAlignment="true">
-      <SegmentTemplate media="$RepresentationID$/$Number$.m4s" timescale="44100" startNumber="0" initialization="$RepresentationID$/init.mp4" presentationTimeOffset="88288" duration="234496" />
-      <Representation id="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="44100" startWithSAP="1" bandwidth="126000" />
+      <SegmentTemplate media="$RepresentationID$/$Number$.chk" timescale="1000" startNumber="0" initialization="$RepresentationID$/init.webm" presentationTimeOffset="2001" duration="5032" />
+      <Representation id="audio" mimeType="audio/webm" codecs="opus" audioSamplingRate="48000" startWithSAP="1" bandwidth="132200" />
     </AdaptationSet>
   </Period>
 </MPD>
