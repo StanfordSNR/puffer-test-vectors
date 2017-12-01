@@ -8,7 +8,7 @@
     </AdaptationSet>
     <AdaptationSet segmentAlignment="true">
       <SegmentTemplate media="$RepresentationID$/$Time$.chk" timescale="90000" initialization="$RepresentationID$/init.webm" duration="450000" bitstreamSwitching="true" />
-      <Representation id="audio" mimeType="audio/webm" codecs="opus" audioSamplingRate="48000" startWithSAP="1" bandwidth="0" />
+      <Representation id="audio" mimeType="audio/webm" codecs="opus" audioSamplingRate="48000" startWithSAP="1" bandwidth="133100" />
     </AdaptationSet>
   </Period>
   <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-xsdate:2014" value="/time" />
